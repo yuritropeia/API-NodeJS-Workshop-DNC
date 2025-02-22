@@ -1,0 +1,28 @@
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Yuri",
+    "email": "yuri@gmail.com",
+    "password": "ABC123456"
+}
+
+###
+GET http://localhost:3000/users
+
+###
+GET http://localhost:3000/users/2
+
+###
+
+PUT http://localhost:3000/users/2
+Content-Type: application/json
+
+{
+    "name": "Henry",
+    "email": "henrytropeia@gmail.com",
+    "password": "123456ac"
+}
+
+###
+DELETE http://localhost:3000/users/1
